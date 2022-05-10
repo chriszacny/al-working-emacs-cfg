@@ -74,6 +74,9 @@
 (setq indent-line-function 'insert-tab)
 
 (setq-default truncate-lines 1)
+
+(setq c-default-style "linux"
+      c-basic-offset 4)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
